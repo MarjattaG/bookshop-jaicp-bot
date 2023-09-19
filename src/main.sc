@@ -603,7 +603,7 @@ theme: /
                 image: https://wl-adme.cf.tsp.li/resize/728x/jpg/012/557/6a191355ef8ad1d713d602b4a4.jpg
         
         state: Facts_Reaction
-            q!: *(прикол*/класс*/найс/ок*/пон*/*ха*)*
+            q!: *(прикол*/круто/класс*/найс/ок*/пон*/*ха*)*
             random:
                 a: Рад, что тебе понравилось!
                 a: :)
