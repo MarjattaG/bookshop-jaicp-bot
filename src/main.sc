@@ -47,8 +47,8 @@ theme: /
                     state: Classic
                         a: Отлично! Вот лучшая классика о любви:
                         buttons: 
-                            "Дама с собачкой, Антона Чехова" -> /Welcome/Choice/Rus/Romance/Classic/Chekhov
-                            "Мастер и Маргарита, Михаила Булгакова" -> /Welcome/Choice/Rus/Romance/Classic/Bulgakov
+                            "Дама с собачкой, Антон Чехов" -> /Welcome/Choice/Rus/Romance/Classic/Chekhov
+                            "Мастер и Маргарита, Михаил Булгаков" -> /Welcome/Choice/Rus/Romance/Classic/Bulgakov
                             "Анна Каренина, Лев Толстой" -> /Welcome/Choice/Rus/Romance/Classic/Tolstoy
                             "Назад" -> /Welcome/Choice/Rus/Romance
                         state: Chekhov
@@ -56,19 +56,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Romance/Classic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Bulgakov
                             a: Это русский пример магического реализма, где коты ездят в трамваях, а деньги падают с неба. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Romance/Classic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Tolstoy
                             a: Для самого автора – это, прежде всего, семейный роман, роман о любви, которая, соединив две половинки, перерастает в нечто большее: в семью, детей.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Romance/Classic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                     state: Modern
                         a: Супер! Вот современные истории любви:
                         buttons:
@@ -81,19 +81,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Romance/Modern
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Vereskov
                             a: Дебютный роман написан человеком, который не стесняется своей молодости, то есть не боится чего-то не знать, не анализировать, не понимать. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Romance/Modern
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Gavrilov
                             a: Попытка дать голос поколению 90-х, отрефлексировать хотя бы какие-то события современности. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Romance/Modern
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         
                 state: Fantasy
                     a: Давай уточним: фэнтези или научная фантастика?
@@ -114,19 +114,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Fantasy/Fiction
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Gromyko
                             a: Это история правителя небольшого государства, в котором царит не очень хорошая атмосфера.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Fantasy/Fiction
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Zvezdnaya
                             a: Адептка Академии проклятий запускает цепь странных событий. Она ничего такого не хотела, всего лишь прокляла могущественного Лорда Темной Империи.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Fantasy/Fiction
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                     state: Science
                         a: Хорошо! Вот подборка отечественной научной фантастики:
                         buttons:
@@ -139,19 +139,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Fantasy/Science
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Shushkanov
                             a: Добро пожаловать в зону искажений! Здесь не наступает ночь, нет вирусов, старение клеток остановлено.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Fantasy/Science
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state:Svirina
                             a: 1970 год, Байконур. Ракета с командой ученых таинственно исчезает во время полета.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Fantasy/Science
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                             
                 state: Detectives
                     a: Давай выберем одного из русских мастеров детективного жанра:
@@ -173,19 +173,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Akunin
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Pelagia
                             a: Действие книги происходит в Заволжской губернии XIX века, куда из столицы приезжает инспектор Бубенцов. Ему предстоит расследовать появление в губернии язычества. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Akunin
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Leviathan
                             a: В 1878 году в блистательном Париже произошло неординарное событие: были убиты лорд Литтлби и девять его слуг.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Akunin
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                     state: Verbinina
                         a: Вот популярные книги Вербининой.
                         buttons:
@@ -198,19 +198,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Verbinina
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Amalia
                             a: Неоднократные покушения на ее жизнь вынуждают мадемуазель Амалию Тамарину стать детективом поневоле.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Verbinina
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Theater
                             a: Пропадает один из артистов балета, и сыщик уголовного розыска Иван Опалин понимает, что в храме искусства не все безоблачно.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Verbinina
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                     state: Ustinova
                         a: Вот популярные книги Устиновой.
                         buttons:
@@ -223,19 +223,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Ustinova
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Enemy
                             a: Что делать, если твоя жизнь превратилась в кошмар? Тележурналистке Александре Потаповой кажется, что кругом одни только враги.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Ustinova
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
                         state: Seventh
                             a: Лидия Шевелева, корреспондент газеты "Время, вперед!", и не подозревала, что стала пешкой в большой игре, когда получила из анонимного источника потрясающие материалы.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Rus/Detectives/Ustinova
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Rus
 
                 state: Horrors
                     a: Вот подборка отличных хорроров от российских писателей:
@@ -250,19 +250,19 @@ theme: /
                         buttons:
                             "Назад" -> /Welcome/Choice/Rus/Horrors
                             "То, что надо!" -> /Welcome/Reaction_Pos
-                            "Другие варианты" -> /Welcome/Choice
+                            "Другой жанр" -> /Welcome/Choice/Rus
                     state: Divov
                         a: Книга, стоящая на стыке темного городского фэнтези и мистического хоррора, освещающая жизнь и взаимоотношения между вампирами, оборотнями и прочими представителями осовремененной нечисти, а также о вполне обычных людях, которые порой оказываются страшнее и омерзительнее всяких чудовищ.
                         buttons:
                             "Назад" -> /Welcome/Choice/Rus/Horrors
                             "То, что надо!" -> /Welcome/Reaction_Pos
-                            "Другие варианты" -> /Welcome/Choice
+                            "Другой жанр" -> /Welcome/Choice/Rus
                     state: Idiatullin
                         a:  Главные герои – брат и сестра, которые находятся в беспрерывном бегстве от чего-то зловещего и могущественного.
                         buttons:
                             "Назад" -> /Welcome/Choice/Rus/Horrors
                             "То, что надо!" -> /Welcome/Reaction_Pos
-                            "Другие варианты" -> /Welcome/Choice
+                            "Другой жанр" -> /Welcome/Choice/Rus
             
             state: Foreign
                 a: Какой жанр тебе интересен?
@@ -292,19 +292,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Romance/Classic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Hugo
                             a: Главной героиней культового романа является танцовщица Эсмеральда, о нелегкой судьбе которой и повествует автор.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Romance/Classic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Shakespeare
                             a: В трагедии одного из величайших драматургов мира Уильяма Шекспира повествуется о любви юноши и девушки из двух родов, которые постоянно враждуют между собой. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Romance/Classic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                     state: Modern
                         a: Хорошо! Вот топ самых красивых любовных романов современных зарубежных авторов:
                         buttons:
@@ -317,19 +317,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Romance/Modern
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Bailey
                             a: Бестселлер о сестрах Беллинджер и их любовных историях, происходящих в декорациях небольшого рыбацкого городка. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Romance/Modern
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Hartmann
                             a:  Врагам предстоит объединиться, чтобы спастись, а после – справиться с травмами, построить заново жизнь и отношения.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Romance/Modern
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                 
                 state: Fantasy
                     a: Мистика или боевик? 
@@ -350,19 +350,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Fantasy/Mystery
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Abe
                             a: Кобо Абэ – знаменитый японский прозаик и драматург. Эти своеобразные романы-притчи повествуют о людях, находящихся под властью навязчивой идеи или оказавшихся в ситуации, похожей на фантастический сон.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Fantasy/Mystery
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: King
                             a: Захватывающие и пугающие, будоражащие воображение и предостерегающие, эти рассказы — маленькие шедевры, которые мог написать только великий Стивен Кинг. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Fantasy/Mystery
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                     state: Action
                         a: Супер! Вот лучшие фантастические зарубежные боевики:
                         buttons:
@@ -375,19 +375,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Fantasy/Action
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Higuera
                             a: Через несколько дней Земля погибнет. Человечество должно немедленно покинуть планету, но космических корабля всего три.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Fantasy/Action
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Sanderson
                             a: Через год после того, как в небесах засияла кровавая звезда Напасть, на Земле появились эпики - загадочные существа, обладающие феноменальными способностями, природу которых не понимают даже они сами.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Fantasy/Action
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                 
                 state: Detectives
                     a: Лучшие зарубежные детективы всех времён:
@@ -402,19 +402,19 @@ theme: /
                         buttons:
                             "Назад" -> /Welcome/Choice/Foreign/Detectives
                             "То, что надо!" -> /Welcome/Reaction_Pos
-                            "Другие варианты" -> /Welcome/Choice
+                            "Другой жанр" -> /Welcome/Choice/Foreign
                     state: Harris
                         a: Курсантка академии ФБР пытается найти серийного убийцу, с особой жестокостью действующего в окрестностях города.
                         buttons:
                             "Назад" -> /Welcome/Choice/Foreign/Detectives
                             "То, что надо!" -> /Welcome/Reaction_Pos
-                            "Другие варианты" -> /Welcome/Choice
+                            "Другой жанр" -> /Welcome/Choice/Foreign
                     state: Christie
                         a: Среди всех романов, написанных королевой детектива, этот считается одним из лучших из-за увлекательности сюжета и непредсказуемости финала. 
                         buttons:
                             "Назад" -> /Welcome/Choice/Foreign/Detectives
                             "То, что надо!" -> /Welcome/Reaction_Pos
-                            "Другие варианты" -> /Welcome/Choice
+                            "Другой жанр" -> /Welcome/Choice/Foreign
                     
                     
                 state: Horrors
@@ -436,19 +436,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Horrors/Books
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Brom
                             a: Наводящее ужас сказание о волшебстве обязательно понравится поклонникам жанра, ведь читатели столкнутся с самим Косиногом, демоном, дьяволом.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Horrors/Books
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: James
                             a: Автор погружает читателей в ужасное прошлое дома на Холодном холме.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Horrors/Books
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                     state: Graphic
                         a: Лучшие комиксы в жанре ужасов: 
                         buttons:
@@ -461,19 +461,19 @@ theme: /
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Horrors/Graphic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Burns
                             a: Этот недуг поражал не только тинейджеров. Одни называли его молодежной чумой, другие - просто заразой. Но самое ужасное было в том, что если болезнь тебя пометила, ты становился изгоем навсегда. 
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Horrors/Graphic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                         state: Asano
                             a: Детские страшилки, монстр, живущий в тоннеле, семейные секреты, необычно большая популяция бабочек — все эти отдельные ниточки переплетаются в едином узоре Апокалипсиса Новой Эры.
                             buttons:
                                 "Назад" -> /Welcome/Choice/Foreign/Horrors/Graphic
                                 "То, что надо!" -> /Welcome/Reaction_Pos
-                                "Другие варианты" -> /Welcome/Choice
+                                "Другой жанр" -> /Welcome/Choice/Foreign
                             
         state: New
             q!: *(нов*)*
@@ -484,7 +484,7 @@ theme: /
                 "Детектив" -> /Welcome/New/Detectives
                 "Ужасы" -> /Welcome/New/Horrors
             state: Romance
-                a: **Новинки жанра "Романтика"**
+                a: Новинки жанра "Романтика":
                 buttons:
                     "Разрушительная любовь, Ана Хуан" -> /Welcome/New/Romance/R_1
                     "Только попробуй уйти, Ася Лавринович" -> /Welcome/New/Romance/R_2
@@ -509,7 +509,7 @@ theme: /
                         "Другой жанр" -> /Welcome/New
 
             state: Fantasy
-                a: **Новинки жанра "Фэнтези"**
+                a: Новинки жанра "Фэнтези":
                 buttons:
                     "Утраченный металл, Брендон Сандерсон" -> /Welcome/New/Fantasy/F_1
                     "На руинах империи,Брайан Стейвли" -> /Welcome/New/Fantasy/F_2
@@ -534,7 +534,7 @@ theme: /
                         "Другой жанр" -> /Welcome/New
             
             state: Detectives
-                a: **Новинки жанра "Детектив"**
+                a: Новинки жанра "Детектив":
                 buttons:
                     "Книга несчастных случаев,Чак Вендиг" -> /Welcome/New/Detectives/D_1
                     "Снежная девочка, Хавьер Кастильо" -> /Welcome/New/Detectives/D_2
@@ -559,7 +559,7 @@ theme: /
                         "Другой жанр" -> /Welcome/New
 
             state: Horrors
-                a: **Новинки жанра "Ужасы"**
+                a: Новинки жанра "Ужасы":
                 buttons:
                     "Как продать дом с привидениями, Грейди Хендрикс" -> /Welcome/New/Horrors/H_1
                     "Скажи мне, что я ничего не стою,Элисон Румфитт" -> /Welcome/New/Horrors/H_2
